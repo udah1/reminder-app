@@ -1,0 +1,63 @@
+.App {
+    text-align: center !important;
+}
+@media screen and (min-width: 1025px) {
+    .App {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.accordion-item .separator {
+    border-bottom: 2px solid black;
+}
+
+.add-reminder-button {
+    margin-top: 50px;
+}
+
+.disabled-list-item {
+    background-color: #F3F1F1;
+}
+
+.disabled-list-item .accordion-button {
+    background-color: #F3F1F1 !important;
+}
+
+.accordion-header:not(.disabled-list-item) .accordion-button.collapsed {
+    background-color: #a2d1fa !important;
+}
+
+.text-disabled {
+    color: #8d9398 !important;
+    font-style: italic !important;
+}
